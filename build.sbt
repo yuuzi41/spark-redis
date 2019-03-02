@@ -26,7 +26,8 @@ organizationHomepage := Some(url("https://redislabs.com"))
 // Add Spark components this package depends on, e.g, "mllib", ....
 sparkComponents ++= Seq("sql", "streaming")
 
-libraryDependencies ++= Seq( "redis.clients" % "jedis" % "3.0.1")
+libraryDependencies ++= Seq( "com.redislabs" % "jedis" % "3.0.0-m1")
+
 
 // uncomment and change the value below to change the directory where your zip artifact will be created
 // spDistDirectory := target.value
